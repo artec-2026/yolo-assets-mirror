@@ -1,0 +1,1364 @@
+{
+  "version": "v8.4.0",
+  "last_updated": "2026-05-06T03:18:16Z",
+  "models": [
+    {
+      "name": "rtdetr-l",
+      "version": "RT-DETR",
+      "task": "Object Detection",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/rtdetr-l.pt",
+      "file_size_mb": 63.4
+    },
+    {
+      "name": "rtdetr-x",
+      "version": "RT-DETR",
+      "task": "Object Detection",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/rtdetr-x.pt",
+      "file_size_mb": 129.5
+    },
+    {
+      "name": "FastSAM-s",
+      "version": "SAM",
+      "task": "Segmentation",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/FastSAM-s.pt",
+      "file_size_mb": 22.7
+    },
+    {
+      "name": "FastSAM-x",
+      "version": "SAM",
+      "task": "Segmentation",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/FastSAM-x.pt",
+      "file_size_mb": 138.3
+    },
+    {
+      "name": "mobile_sam",
+      "version": "SAM",
+      "task": "Segmentation",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/mobile_sam.pt",
+      "file_size_mb": 38.8
+    },
+    {
+      "name": "sam2.1_b",
+      "version": "SAM",
+      "task": "Segmentation",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/sam2.1_b.pt",
+      "file_size_mb": 154.4
+    },
+    {
+      "name": "sam2.1_l",
+      "version": "SAM",
+      "task": "Segmentation",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/sam2.1_l.pt",
+      "file_size_mb": 428.4
+    },
+    {
+      "name": "sam2.1_s",
+      "version": "SAM",
+      "task": "Segmentation",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/sam2.1_s.pt",
+      "file_size_mb": 88.0
+    },
+    {
+      "name": "sam2.1_t",
+      "version": "SAM",
+      "task": "Segmentation",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/sam2.1_t.pt",
+      "file_size_mb": 74.5
+    },
+    {
+      "name": "sam2_b",
+      "version": "SAM",
+      "task": "Segmentation",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/sam2_b.pt",
+      "file_size_mb": 154.4
+    },
+    {
+      "name": "sam2_l",
+      "version": "SAM",
+      "task": "Segmentation",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/sam2_l.pt",
+      "file_size_mb": 428.4
+    },
+    {
+      "name": "sam2_s",
+      "version": "SAM",
+      "task": "Segmentation",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/sam2_s.pt",
+      "file_size_mb": 88.0
+    },
+    {
+      "name": "sam2_t",
+      "version": "SAM",
+      "task": "Segmentation",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/sam2_t.pt",
+      "file_size_mb": 74.4
+    },
+    {
+      "name": "sam_b",
+      "version": "SAM",
+      "task": "Segmentation",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/sam_b.pt",
+      "file_size_mb": 357.7
+    },
+    {
+      "name": "sam_l",
+      "version": "SAM",
+      "task": "Segmentation",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/sam_l.pt",
+      "file_size_mb": 1191.6
+    },
+    {
+      "name": "yolo_nas_l",
+      "version": "YOLO-NAS",
+      "task": "Object Detection",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo_nas_l.pt",
+      "file_size_mb": 328.4
+    },
+    {
+      "name": "yolo_nas_m",
+      "version": "YOLO-NAS",
+      "task": "Object Detection",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo_nas_m.pt",
+      "file_size_mb": 248.5
+    },
+    {
+      "name": "yolo_nas_s",
+      "version": "YOLO-NAS",
+      "task": "Object Detection",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo_nas_s.pt",
+      "file_size_mb": 83.3
+    },
+    {
+      "name": "yolo11l",
+      "version": "YOLO11",
+      "task": "Object Detection",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo11l.pt",
+      "file_size_mb": 49.0
+    },
+    {
+      "name": "yolo11l-cls",
+      "version": "YOLO11",
+      "task": "Classification",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo11l-cls.pt",
+      "file_size_mb": 27.2
+    },
+    {
+      "name": "yolo11l-obb",
+      "version": "YOLO11",
+      "task": "Oriented Bounding Box",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo11l-obb.pt",
+      "file_size_mb": 50.7
+    },
+    {
+      "name": "yolo11l-pose",
+      "version": "YOLO11",
+      "task": "Pose Estimation",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo11l-pose.pt",
+      "file_size_mb": 50.7
+    },
+    {
+      "name": "yolo11l-seg",
+      "version": "YOLO11",
+      "task": "Instance Segmentation",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo11l-seg.pt",
+      "file_size_mb": 53.5
+    },
+    {
+      "name": "yolo11m",
+      "version": "YOLO11",
+      "task": "Object Detection",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo11m.pt",
+      "file_size_mb": 38.8
+    },
+    {
+      "name": "yolo11m-cls",
+      "version": "YOLO11",
+      "task": "Classification",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo11m-cls.pt",
+      "file_size_mb": 22.4
+    },
+    {
+      "name": "yolo11m-obb",
+      "version": "YOLO11",
+      "task": "Oriented Bounding Box",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo11m-obb.pt",
+      "file_size_mb": 40.5
+    },
+    {
+      "name": "yolo11m-pose",
+      "version": "YOLO11",
+      "task": "Pose Estimation",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo11m-pose.pt",
+      "file_size_mb": 40.5
+    },
+    {
+      "name": "yolo11m-seg",
+      "version": "YOLO11",
+      "task": "Instance Segmentation",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo11m-seg.pt",
+      "file_size_mb": 43.3
+    },
+    {
+      "name": "yolo11n",
+      "version": "YOLO11",
+      "task": "Object Detection",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo11n.pt",
+      "file_size_mb": 5.4
+    },
+    {
+      "name": "yolo11n-cls",
+      "version": "YOLO11",
+      "task": "Classification",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo11n-cls.pt",
+      "file_size_mb": 5.5
+    },
+    {
+      "name": "yolo11n-grayscale",
+      "version": "YOLO11",
+      "task": "Object Detection",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo11n-grayscale.pt",
+      "file_size_mb": 5.3
+    },
+    {
+      "name": "yolo11n-obb",
+      "version": "YOLO11",
+      "task": "Oriented Bounding Box",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo11n-obb.pt",
+      "file_size_mb": 5.5
+    },
+    {
+      "name": "yolo11n-pose",
+      "version": "YOLO11",
+      "task": "Pose Estimation",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo11n-pose.pt",
+      "file_size_mb": 6.0
+    },
+    {
+      "name": "yolo11n-seg",
+      "version": "YOLO11",
+      "task": "Instance Segmentation",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo11n-seg.pt",
+      "file_size_mb": 5.9
+    },
+    {
+      "name": "yolo11s",
+      "version": "YOLO11",
+      "task": "Object Detection",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo11s.pt",
+      "file_size_mb": 18.4
+    },
+    {
+      "name": "yolo11s-cls",
+      "version": "YOLO11",
+      "task": "Classification",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo11s-cls.pt",
+      "file_size_mb": 13.0
+    },
+    {
+      "name": "yolo11s-obb",
+      "version": "YOLO11",
+      "task": "Oriented Bounding Box",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo11s-obb.pt",
+      "file_size_mb": 19.0
+    },
+    {
+      "name": "yolo11s-pose",
+      "version": "YOLO11",
+      "task": "Pose Estimation",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo11s-pose.pt",
+      "file_size_mb": 19.4
+    },
+    {
+      "name": "yolo11s-seg",
+      "version": "YOLO11",
+      "task": "Instance Segmentation",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo11s-seg.pt",
+      "file_size_mb": 19.7
+    },
+    {
+      "name": "yolo11x",
+      "version": "YOLO11",
+      "task": "Object Detection",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo11x.pt",
+      "file_size_mb": 109.3
+    },
+    {
+      "name": "yolo11x-cls",
+      "version": "YOLO11",
+      "task": "Classification",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo11x-cls.pt",
+      "file_size_mb": 56.9
+    },
+    {
+      "name": "yolo11x-obb",
+      "version": "YOLO11",
+      "task": "Oriented Bounding Box",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo11x-obb.pt",
+      "file_size_mb": 113.0
+    },
+    {
+      "name": "yolo11x-pose",
+      "version": "YOLO11",
+      "task": "Pose Estimation",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo11x-pose.pt",
+      "file_size_mb": 113.0
+    },
+    {
+      "name": "yolo11x-seg",
+      "version": "YOLO11",
+      "task": "Instance Segmentation",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo11x-seg.pt",
+      "file_size_mb": 119.3
+    },
+    {
+      "name": "yoloe-11l-seg",
+      "version": "YOLO11",
+      "task": "Instance Segmentation",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yoloe-11l-seg.pt",
+      "file_size_mb": 67.7
+    },
+    {
+      "name": "yoloe-11l-seg-pf",
+      "version": "YOLO11",
+      "task": "Instance Segmentation",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yoloe-11l-seg-pf.pt",
+      "file_size_mb": 70.8
+    },
+    {
+      "name": "yoloe-11m-seg",
+      "version": "YOLO11",
+      "task": "Instance Segmentation",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yoloe-11m-seg.pt",
+      "file_size_mb": 57.5
+    },
+    {
+      "name": "yoloe-11m-seg-pf",
+      "version": "YOLO11",
+      "task": "Instance Segmentation",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yoloe-11m-seg-pf.pt",
+      "file_size_mb": 60.6
+    },
+    {
+      "name": "yoloe-11s-seg",
+      "version": "YOLO11",
+      "task": "Instance Segmentation",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yoloe-11s-seg.pt",
+      "file_size_mb": 26.5
+    },
+    {
+      "name": "yoloe-11s-seg-pf",
+      "version": "YOLO11",
+      "task": "Instance Segmentation",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yoloe-11s-seg-pf.pt",
+      "file_size_mb": 26.7
+    },
+    {
+      "name": "yolo12l",
+      "version": "YOLO12",
+      "task": "Object Detection",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo12l.pt",
+      "file_size_mb": 51.2
+    },
+    {
+      "name": "yolo12m",
+      "version": "YOLO12",
+      "task": "Object Detection",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo12m.pt",
+      "file_size_mb": 39.0
+    },
+    {
+      "name": "yolo12n",
+      "version": "YOLO12",
+      "task": "Object Detection",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo12n.pt",
+      "file_size_mb": 5.3
+    },
+    {
+      "name": "yolo12s",
+      "version": "YOLO12",
+      "task": "Object Detection",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo12s.pt",
+      "file_size_mb": 18.1
+    },
+    {
+      "name": "yolo12x",
+      "version": "YOLO12",
+      "task": "Object Detection",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo12x.pt",
+      "file_size_mb": 113.8
+    },
+    {
+      "name": "yolo26l",
+      "version": "YOLO26",
+      "task": "Object Detection",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26l.pt",
+      "file_size_mb": 50.7
+    },
+    {
+      "name": "yolo26l-cls",
+      "version": "YOLO26",
+      "task": "Classification",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26l-cls.pt",
+      "file_size_mb": 27.2
+    },
+    {
+      "name": "yolo26l-depth",
+      "version": "YOLO26",
+      "task": "Depth Estimation",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26l-depth.pt",
+      "file_size_mb": 53.3
+    },
+    {
+      "name": "yolo26l-obb",
+      "version": "YOLO26",
+      "task": "Oriented Bounding Box",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26l-obb.pt",
+      "file_size_mb": 54.6
+    },
+    {
+      "name": "yolo26l-objv1-150",
+      "version": "YOLO26",
+      "task": "Object Detection",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26l-objv1-150.pt",
+      "file_size_mb": 51.6
+    },
+    {
+      "name": "yolo26l-objv1-seg",
+      "version": "YOLO26",
+      "task": "Instance Segmentation",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26l-objv1-seg.pt",
+      "file_size_mb": 61.8
+    },
+    {
+      "name": "yolo26l-pose",
+      "version": "YOLO26",
+      "task": "Pose Estimation",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26l-pose.pt",
+      "file_size_mb": 55.3
+    },
+    {
+      "name": "yolo26l-s3d",
+      "version": "YOLO26",
+      "task": "3D Object Detection",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26l-s3d.pt",
+      "file_size_mb": 60.2
+    },
+    {
+      "name": "yolo26l-seg",
+      "version": "YOLO26",
+      "task": "Instance Segmentation",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26l-seg.pt",
+      "file_size_mb": 60.7
+    },
+    {
+      "name": "yolo26l-semseg",
+      "version": "YOLO26",
+      "task": "Semantic Segmentation",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26l-semseg.pt",
+      "file_size_mb": 34.5
+    },
+    {
+      "name": "yolo26l-stereo3ddet-siamese",
+      "version": "YOLO26",
+      "task": "Stereo 3D Detection",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26l-stereo3ddet-siamese.pt",
+      "file_size_mb": 60.1
+    },
+    {
+      "name": "yolo26m",
+      "version": "YOLO26",
+      "task": "Object Detection",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26m.pt",
+      "file_size_mb": 42.2
+    },
+    {
+      "name": "yolo26m-cls",
+      "version": "YOLO26",
+      "task": "Classification",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26m-cls.pt",
+      "file_size_mb": 22.4
+    },
+    {
+      "name": "yolo26m-depth",
+      "version": "YOLO26",
+      "task": "Depth Estimation",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26m-depth.pt",
+      "file_size_mb": 44.7
+    },
+    {
+      "name": "yolo26m-obb",
+      "version": "YOLO26",
+      "task": "Oriented Bounding Box",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26m-obb.pt",
+      "file_size_mb": 46.1
+    },
+    {
+      "name": "yolo26m-objv1-150",
+      "version": "YOLO26",
+      "task": "Object Detection",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26m-objv1-150.pt",
+      "file_size_mb": 43.1
+    },
+    {
+      "name": "yolo26m-objv1-seg",
+      "version": "YOLO26",
+      "task": "Instance Segmentation",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26m-objv1-seg.pt",
+      "file_size_mb": 53.2
+    },
+    {
+      "name": "yolo26m-pose",
+      "version": "YOLO26",
+      "task": "Pose Estimation",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26m-pose.pt",
+      "file_size_mb": 46.8
+    },
+    {
+      "name": "yolo26m-s3d",
+      "version": "YOLO26",
+      "task": "3D Object Detection",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26m-s3d.pt",
+      "file_size_mb": 51.6
+    },
+    {
+      "name": "yolo26m-seg",
+      "version": "YOLO26",
+      "task": "Instance Segmentation",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26m-seg.pt",
+      "file_size_mb": 52.2
+    },
+    {
+      "name": "yolo26m-semseg",
+      "version": "YOLO26",
+      "task": "Semantic Segmentation",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26m-semseg.pt",
+      "file_size_mb": 27.6
+    },
+    {
+      "name": "yolo26m-stereo3ddet-siamese",
+      "version": "YOLO26",
+      "task": "Stereo 3D Detection",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26m-stereo3ddet-siamese.pt",
+      "file_size_mb": 51.5
+    },
+    {
+      "name": "yolo26n",
+      "version": "YOLO26",
+      "task": "Object Detection",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26n.pt",
+      "file_size_mb": 5.3
+    },
+    {
+      "name": "yolo26n-cls",
+      "version": "YOLO26",
+      "task": "Classification",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26n-cls.pt",
+      "file_size_mb": 5.5
+    },
+    {
+      "name": "yolo26n-obb",
+      "version": "YOLO26",
+      "task": "Oriented Bounding Box",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26n-obb.pt",
+      "file_size_mb": 5.6
+    },
+    {
+      "name": "yolo26n-objv1-150",
+      "version": "YOLO26",
+      "task": "Object Detection",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26n-objv1-150.pt",
+      "file_size_mb": 5.7
+    },
+    {
+      "name": "yolo26n-objv1-seg",
+      "version": "YOLO26",
+      "task": "Instance Segmentation",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26n-objv1-seg.pt",
+      "file_size_mb": 6.9
+    },
+    {
+      "name": "yolo26n-pose",
+      "version": "YOLO26",
+      "task": "Pose Estimation",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26n-pose.pt",
+      "file_size_mb": 7.5
+    },
+    {
+      "name": "yolo26n-s3d",
+      "version": "YOLO26",
+      "task": "3D Object Detection",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26n-s3d.pt",
+      "file_size_mb": 7.3
+    },
+    {
+      "name": "yolo26n-seg",
+      "version": "YOLO26",
+      "task": "Instance Segmentation",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26n-seg.pt",
+      "file_size_mb": 6.4
+    },
+    {
+      "name": "yolo26n-semseg",
+      "version": "YOLO26",
+      "task": "Semantic Segmentation",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26n-semseg.pt",
+      "file_size_mb": 3.3
+    },
+    {
+      "name": "yolo26n-stereo3ddet-siamese",
+      "version": "YOLO26",
+      "task": "Stereo 3D Detection",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26n-stereo3ddet-siamese.pt",
+      "file_size_mb": 7.3
+    },
+    {
+      "name": "yolo26s",
+      "version": "YOLO26",
+      "task": "Object Detection",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26s.pt",
+      "file_size_mb": 19.5
+    },
+    {
+      "name": "yolo26s-cls",
+      "version": "YOLO26",
+      "task": "Classification",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26s-cls.pt",
+      "file_size_mb": 13.0
+    },
+    {
+      "name": "yolo26s-depth",
+      "version": "YOLO26",
+      "task": "Depth Estimation",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26s-depth.pt",
+      "file_size_mb": 25.5
+    },
+    {
+      "name": "yolo26s-obb",
+      "version": "YOLO26",
+      "task": "Oriented Bounding Box",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26s-obb.pt",
+      "file_size_mb": 20.7
+    },
+    {
+      "name": "yolo26s-objv1-150",
+      "version": "YOLO26",
+      "task": "Object Detection",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26s-objv1-150.pt",
+      "file_size_mb": 19.9
+    },
+    {
+      "name": "yolo26s-objv1-seg",
+      "version": "YOLO26",
+      "task": "Instance Segmentation",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26s-objv1-seg.pt",
+      "file_size_mb": 22.9
+    },
+    {
+      "name": "yolo26s-pose",
+      "version": "YOLO26",
+      "task": "Pose Estimation",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26s-pose.pt",
+      "file_size_mb": 23.0
+    },
+    {
+      "name": "yolo26s-s3d",
+      "version": "YOLO26",
+      "task": "3D Object Detection",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26s-s3d.pt",
+      "file_size_mb": 22.6
+    },
+    {
+      "name": "yolo26s-seg",
+      "version": "YOLO26",
+      "task": "Instance Segmentation",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26s-seg.pt",
+      "file_size_mb": 22.4
+    },
+    {
+      "name": "yolo26s-semseg",
+      "version": "YOLO26",
+      "task": "Semantic Segmentation",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26s-semseg.pt",
+      "file_size_mb": 12.6
+    },
+    {
+      "name": "yolo26s-stereo3ddet-siamese",
+      "version": "YOLO26",
+      "task": "Stereo 3D Detection",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26s-stereo3ddet-siamese.pt",
+      "file_size_mb": 22.5
+    },
+    {
+      "name": "yolo26x",
+      "version": "YOLO26",
+      "task": "Object Detection",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26x.pt",
+      "file_size_mb": 113.2
+    },
+    {
+      "name": "yolo26x-cls",
+      "version": "YOLO26",
+      "task": "Classification",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26x-cls.pt",
+      "file_size_mb": 56.8
+    },
+    {
+      "name": "yolo26x-depth",
+      "version": "YOLO26",
+      "task": "Depth Estimation",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26x-depth.pt",
+      "file_size_mb": 109.3
+    },
+    {
+      "name": "yolo26x-obb",
+      "version": "YOLO26",
+      "task": "Oriented Bounding Box",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26x-obb.pt",
+      "file_size_mb": 121.1
+    },
+    {
+      "name": "yolo26x-objv1-150",
+      "version": "YOLO26",
+      "task": "Object Detection",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26x-objv1-150.pt",
+      "file_size_mb": 114.4
+    },
+    {
+      "name": "yolo26x-objv1-seg",
+      "version": "YOLO26",
+      "task": "Instance Segmentation",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26x-objv1-seg.pt",
+      "file_size_mb": 137.1
+    },
+    {
+      "name": "yolo26x-pose",
+      "version": "YOLO26",
+      "task": "Pose Estimation",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26x-pose.pt",
+      "file_size_mb": 120.4
+    },
+    {
+      "name": "yolo26x-seg",
+      "version": "YOLO26",
+      "task": "Instance Segmentation",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26x-seg.pt",
+      "file_size_mb": 135.5
+    },
+    {
+      "name": "yolo26x-semseg",
+      "version": "YOLO26",
+      "task": "Semantic Segmentation",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26x-semseg.pt",
+      "file_size_mb": 77.0
+    },
+    {
+      "name": "yoloe-26l-seg",
+      "version": "YOLO26",
+      "task": "Instance Segmentation",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yoloe-26l-seg.pt",
+      "file_size_mb": 75.7
+    },
+    {
+      "name": "yoloe-26l-seg-pf",
+      "version": "YOLO26",
+      "task": "Instance Segmentation",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yoloe-26l-seg-pf.pt",
+      "file_size_mb": 77.9
+    },
+    {
+      "name": "yoloe-26m-seg",
+      "version": "YOLO26",
+      "task": "Instance Segmentation",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yoloe-26m-seg.pt",
+      "file_size_mb": 67.2
+    },
+    {
+      "name": "yoloe-26m-seg-pf",
+      "version": "YOLO26",
+      "task": "Instance Segmentation",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yoloe-26m-seg-pf.pt",
+      "file_size_mb": 69.5
+    },
+    {
+      "name": "yoloe-26n-seg",
+      "version": "YOLO26",
+      "task": "Instance Segmentation",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yoloe-26n-seg.pt",
+      "file_size_mb": 11.2
+    },
+    {
+      "name": "yoloe-26n-seg-pf",
+      "version": "YOLO26",
+      "task": "Instance Segmentation",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yoloe-26n-seg-pf.pt",
+      "file_size_mb": 12.7
+    },
+    {
+      "name": "yoloe-26s-seg",
+      "version": "YOLO26",
+      "task": "Instance Segmentation",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yoloe-26s-seg.pt",
+      "file_size_mb": 29.6
+    },
+    {
+      "name": "yoloe-26s-seg-pf",
+      "version": "YOLO26",
+      "task": "Instance Segmentation",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yoloe-26s-seg-pf.pt",
+      "file_size_mb": 31.2
+    },
+    {
+      "name": "yoloe-26x-seg",
+      "version": "YOLO26",
+      "task": "Instance Segmentation",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yoloe-26x-seg.pt",
+      "file_size_mb": 163.7
+    },
+    {
+      "name": "yoloe-26x-seg-pf",
+      "version": "YOLO26",
+      "task": "Instance Segmentation",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yoloe-26x-seg-pf.pt",
+      "file_size_mb": 165.1
+    },
+    {
+      "name": "yolov10b",
+      "version": "YOLOv10",
+      "task": "Object Detection",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov10b.pt",
+      "file_size_mb": 39.7
+    },
+    {
+      "name": "yolov10l",
+      "version": "YOLOv10",
+      "task": "Object Detection",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov10l.pt",
+      "file_size_mb": 50.0
+    },
+    {
+      "name": "yolov10m",
+      "version": "YOLOv10",
+      "task": "Object Detection",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov10m.pt",
+      "file_size_mb": 32.1
+    },
+    {
+      "name": "yolov10n",
+      "version": "YOLOv10",
+      "task": "Object Detection",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov10n.pt",
+      "file_size_mb": 5.6
+    },
+    {
+      "name": "yolov10s",
+      "version": "YOLOv10",
+      "task": "Object Detection",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov10s.pt",
+      "file_size_mb": 15.9
+    },
+    {
+      "name": "yolov10x",
+      "version": "YOLOv10",
+      "task": "Object Detection",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov10x.pt",
+      "file_size_mb": 61.4
+    },
+    {
+      "name": "yolov3-sppu",
+      "version": "YOLOv3",
+      "task": "Object Detection",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov3-sppu.pt",
+      "file_size_mb": 200.3
+    },
+    {
+      "name": "yolov3-tinyu",
+      "version": "YOLOv3",
+      "task": "Object Detection",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov3-tinyu.pt",
+      "file_size_mb": 23.3
+    },
+    {
+      "name": "yolov3u",
+      "version": "YOLOv3",
+      "task": "Object Detection",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov3u.pt",
+      "file_size_mb": 198.3
+    },
+    {
+      "name": "yolov5l6u",
+      "version": "YOLOv5",
+      "task": "Object Detection",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov5l6u.pt",
+      "file_size_mb": 164.9
+    },
+    {
+      "name": "yolov5lu",
+      "version": "YOLOv5",
+      "task": "Object Detection",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov5lu.pt",
+      "file_size_mb": 102.0
+    },
+    {
+      "name": "yolov5m6u",
+      "version": "YOLOv5",
+      "task": "Object Detection",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov5m6u.pt",
+      "file_size_mb": 79.2
+    },
+    {
+      "name": "yolov5mu",
+      "version": "YOLOv5",
+      "task": "Object Detection",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov5mu.pt",
+      "file_size_mb": 48.2
+    },
+    {
+      "name": "yolov5n6u",
+      "version": "YOLOv5",
+      "task": "Object Detection",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov5n6u.pt",
+      "file_size_mb": 8.7
+    },
+    {
+      "name": "yolov5nu",
+      "version": "YOLOv5",
+      "task": "Object Detection",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov5nu.pt",
+      "file_size_mb": 5.3
+    },
+    {
+      "name": "yolov5s6u",
+      "version": "YOLOv5",
+      "task": "Object Detection",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov5s6u.pt",
+      "file_size_mb": 29.6
+    },
+    {
+      "name": "yolov5su",
+      "version": "YOLOv5",
+      "task": "Object Detection",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov5su.pt",
+      "file_size_mb": 17.7
+    },
+    {
+      "name": "yolov5x6u",
+      "version": "YOLOv5",
+      "task": "Object Detection",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov5x6u.pt",
+      "file_size_mb": 297.5
+    },
+    {
+      "name": "yolov5xu",
+      "version": "YOLOv5",
+      "task": "Object Detection",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov5xu.pt",
+      "file_size_mb": 186.1
+    },
+    {
+      "name": "yoloe-v8l-seg",
+      "version": "YOLOv8",
+      "task": "Instance Segmentation",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yoloe-v8l-seg.pt",
+      "file_size_mb": 102.4
+    },
+    {
+      "name": "yoloe-v8l-seg-pf",
+      "version": "YOLOv8",
+      "task": "Instance Segmentation",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yoloe-v8l-seg-pf.pt",
+      "file_size_mb": 105.6
+    },
+    {
+      "name": "yoloe-v8m-seg",
+      "version": "YOLOv8",
+      "task": "Instance Segmentation",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yoloe-v8m-seg.pt",
+      "file_size_mb": 62.8
+    },
+    {
+      "name": "yoloe-v8m-seg-pf",
+      "version": "YOLOv8",
+      "task": "Instance Segmentation",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yoloe-v8m-seg-pf.pt",
+      "file_size_mb": 64.4
+    },
+    {
+      "name": "yoloe-v8s-seg",
+      "version": "YOLOv8",
+      "task": "Instance Segmentation",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yoloe-v8s-seg.pt",
+      "file_size_mb": 29.7
+    },
+    {
+      "name": "yoloe-v8s-seg-pf",
+      "version": "YOLOv8",
+      "task": "Instance Segmentation",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yoloe-v8s-seg-pf.pt",
+      "file_size_mb": 29.8
+    },
+    {
+      "name": "yolov8l",
+      "version": "YOLOv8",
+      "task": "Object Detection",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8l.pt",
+      "file_size_mb": 83.7
+    },
+    {
+      "name": "yolov8l-cls",
+      "version": "YOLOv8",
+      "task": "Classification",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8l-cls.pt",
+      "file_size_mb": 71.7
+    },
+    {
+      "name": "yolov8l-human",
+      "version": "YOLOv8",
+      "task": "Object Detection",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8l-human.pt",
+      "file_size_mb": 86.3
+    },
+    {
+      "name": "yolov8l-obb",
+      "version": "YOLOv8",
+      "task": "Oriented Bounding Box",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8l-obb.pt",
+      "file_size_mb": 85.4
+    },
+    {
+      "name": "yolov8l-oiv7",
+      "version": "YOLOv8",
+      "task": "Object Detection",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8l-oiv7.pt",
+      "file_size_mb": 84.5
+    },
+    {
+      "name": "yolov8l-pose",
+      "version": "YOLOv8",
+      "task": "Pose Estimation",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8l-pose.pt",
+      "file_size_mb": 85.3
+    },
+    {
+      "name": "yolov8l-seg",
+      "version": "YOLOv8",
+      "task": "Instance Segmentation",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8l-seg.pt",
+      "file_size_mb": 88.1
+    },
+    {
+      "name": "yolov8l-world",
+      "version": "YOLOv8",
+      "task": "Object Detection",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8l-world.pt",
+      "file_size_mb": 91.2
+    },
+    {
+      "name": "yolov8l-world-cc3m",
+      "version": "YOLOv8",
+      "task": "Object Detection",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8l-world-cc3m.pt",
+      "file_size_mb": 91.2
+    },
+    {
+      "name": "yolov8l-worldv2",
+      "version": "YOLOv8",
+      "task": "Object Detection",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8l-worldv2.pt",
+      "file_size_mb": 89.9
+    },
+    {
+      "name": "yolov8l-worldv2-cc3m",
+      "version": "YOLOv8",
+      "task": "Object Detection",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8l-worldv2-cc3m.pt",
+      "file_size_mb": 89.9
+    },
+    {
+      "name": "yolov8m",
+      "version": "YOLOv8",
+      "task": "Object Detection",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8m.pt",
+      "file_size_mb": 49.7
+    },
+    {
+      "name": "yolov8m-cls",
+      "version": "YOLOv8",
+      "task": "Classification",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8m-cls.pt",
+      "file_size_mb": 32.7
+    },
+    {
+      "name": "yolov8m-human",
+      "version": "YOLOv8",
+      "task": "Object Detection",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8m-human.pt",
+      "file_size_mb": 51.7
+    },
+    {
+      "name": "yolov8m-obb",
+      "version": "YOLOv8",
+      "task": "Oriented Bounding Box",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8m-obb.pt",
+      "file_size_mb": 50.9
+    },
+    {
+      "name": "yolov8m-oiv7",
+      "version": "YOLOv8",
+      "task": "Object Detection",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8m-oiv7.pt",
+      "file_size_mb": 50.3
+    },
+    {
+      "name": "yolov8m-pose",
+      "version": "YOLOv8",
+      "task": "Pose Estimation",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8m-pose.pt",
+      "file_size_mb": 50.8
+    },
+    {
+      "name": "yolov8m-seg",
+      "version": "YOLOv8",
+      "task": "Instance Segmentation",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8m-seg.pt",
+      "file_size_mb": 52.4
+    },
+    {
+      "name": "yolov8m-world",
+      "version": "YOLOv8",
+      "task": "Object Detection",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8m-world.pt",
+      "file_size_mb": 55.9
+    },
+    {
+      "name": "yolov8m-worldv2",
+      "version": "YOLOv8",
+      "task": "Object Detection",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8m-worldv2.pt",
+      "file_size_mb": 54.6
+    },
+    {
+      "name": "yolov8n",
+      "version": "YOLOv8",
+      "task": "Object Detection",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8n.pt",
+      "file_size_mb": 6.2
+    },
+    {
+      "name": "yolov8n-cls",
+      "version": "YOLOv8",
+      "task": "Classification",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8n-cls.pt",
+      "file_size_mb": 5.3
+    },
+    {
+      "name": "yolov8n-human",
+      "version": "YOLOv8",
+      "task": "Object Detection",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8n-human.pt",
+      "file_size_mb": 6.7
+    },
+    {
+      "name": "yolov8n-obb",
+      "version": "YOLOv8",
+      "task": "Oriented Bounding Box",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8n-obb.pt",
+      "file_size_mb": 6.3
+    },
+    {
+      "name": "yolov8n-oiv7",
+      "version": "YOLOv8",
+      "task": "Object Detection",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8n-oiv7.pt",
+      "file_size_mb": 6.9
+    },
+    {
+      "name": "yolov8n-pose",
+      "version": "YOLOv8",
+      "task": "Pose Estimation",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8n-pose.pt",
+      "file_size_mb": 6.5
+    },
+    {
+      "name": "yolov8n-seg",
+      "version": "YOLOv8",
+      "task": "Instance Segmentation",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8n-seg.pt",
+      "file_size_mb": 6.7
+    },
+    {
+      "name": "yolov8s",
+      "version": "YOLOv8",
+      "task": "Object Detection",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8s.pt",
+      "file_size_mb": 21.5
+    },
+    {
+      "name": "yolov8s-cls",
+      "version": "YOLOv8",
+      "task": "Classification",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8s-cls.pt",
+      "file_size_mb": 12.3
+    },
+    {
+      "name": "yolov8s-human",
+      "version": "YOLOv8",
+      "task": "Object Detection",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8s-human.pt",
+      "file_size_mb": 22.9
+    },
+    {
+      "name": "yolov8s-obb",
+      "version": "YOLOv8",
+      "task": "Oriented Bounding Box",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8s-obb.pt",
+      "file_size_mb": 22.2
+    },
+    {
+      "name": "yolov8s-oiv7",
+      "version": "YOLOv8",
+      "task": "Object Detection",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8s-oiv7.pt",
+      "file_size_mb": 21.9
+    },
+    {
+      "name": "yolov8s-pose",
+      "version": "YOLOv8",
+      "task": "Pose Estimation",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8s-pose.pt",
+      "file_size_mb": 22.4
+    },
+    {
+      "name": "yolov8s-seg",
+      "version": "YOLOv8",
+      "task": "Instance Segmentation",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8s-seg.pt",
+      "file_size_mb": 22.8
+    },
+    {
+      "name": "yolov8s-world",
+      "version": "YOLOv8",
+      "task": "Object Detection",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8s-world.pt",
+      "file_size_mb": 25.9
+    },
+    {
+      "name": "yolov8s-worldv2",
+      "version": "YOLOv8",
+      "task": "Object Detection",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8s-worldv2.pt",
+      "file_size_mb": 24.7
+    },
+    {
+      "name": "yolov8x",
+      "version": "YOLOv8",
+      "task": "Object Detection",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8x.pt",
+      "file_size_mb": 130.5
+    },
+    {
+      "name": "yolov8x-cls",
+      "version": "YOLOv8",
+      "task": "Classification",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8x-cls.pt",
+      "file_size_mb": 109.8
+    },
+    {
+      "name": "yolov8x-obb",
+      "version": "YOLOv8",
+      "task": "Oriented Bounding Box",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8x-obb.pt",
+      "file_size_mb": 133.1
+    },
+    {
+      "name": "yolov8x-oiv7",
+      "version": "YOLOv8",
+      "task": "Object Detection",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8x-oiv7.pt",
+      "file_size_mb": 131.5
+    },
+    {
+      "name": "yolov8x-pose",
+      "version": "YOLOv8",
+      "task": "Pose Estimation",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8x-pose.pt",
+      "file_size_mb": 133.0
+    },
+    {
+      "name": "yolov8x-pose-p6",
+      "version": "YOLOv8",
+      "task": "Object Detection",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8x-pose-p6.pt",
+      "file_size_mb": 189.8
+    },
+    {
+      "name": "yolov8x-seg",
+      "version": "YOLOv8",
+      "task": "Instance Segmentation",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8x-seg.pt",
+      "file_size_mb": 137.4
+    },
+    {
+      "name": "yolov8x-world",
+      "version": "YOLOv8",
+      "task": "Object Detection",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8x-world.pt",
+      "file_size_mb": 141.1
+    },
+    {
+      "name": "yolov8x-worldv2",
+      "version": "YOLOv8",
+      "task": "Object Detection",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8x-worldv2.pt",
+      "file_size_mb": 139.6
+    },
+    {
+      "name": "yolov9c",
+      "version": "YOLOv9",
+      "task": "Object Detection",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov9c.pt",
+      "file_size_mb": 49.4
+    },
+    {
+      "name": "yolov9c-seg",
+      "version": "YOLOv9",
+      "task": "Instance Segmentation",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov9c-seg.pt",
+      "file_size_mb": 53.9
+    },
+    {
+      "name": "yolov9e",
+      "version": "YOLOv9",
+      "task": "Object Detection",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov9e.pt",
+      "file_size_mb": 112.1
+    },
+    {
+      "name": "yolov9e-seg",
+      "version": "YOLOv9",
+      "task": "Instance Segmentation",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov9e-seg.pt",
+      "file_size_mb": 116.6
+    },
+    {
+      "name": "yolov9m",
+      "version": "YOLOv9",
+      "task": "Object Detection",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov9m.pt",
+      "file_size_mb": 39.1
+    },
+    {
+      "name": "yolov9s",
+      "version": "YOLOv9",
+      "task": "Object Detection",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov9s.pt",
+      "file_size_mb": 14.7
+    },
+    {
+      "name": "yolov9t",
+      "version": "YOLOv9",
+      "task": "Object Detection",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov9t.pt",
+      "file_size_mb": 4.7
+    }
+  ]
+}
