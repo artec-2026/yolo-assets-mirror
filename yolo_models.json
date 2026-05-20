@@ -1,6 +1,6 @@
 {
   "version": "v8.4.0",
-  "last_updated": "2026-05-19T03:59:52Z",
+  "last_updated": "2026-05-20T04:00:47Z",
   "models": [
     {
       "name": "rtdetr-l",
@@ -451,10 +451,10 @@
       "file_size_mb": 60.7
     },
     {
-      "name": "yolo26l-semseg",
+      "name": "yolo26l-sem",
       "version": "YOLO26",
-      "task": "Semantic Segmentation",
-      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26l-semseg.pt",
+      "task": "Object Detection",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26l-sem.pt",
       "file_size_mb": 34.5
     },
     {
@@ -528,10 +528,10 @@
       "file_size_mb": 52.2
     },
     {
-      "name": "yolo26m-semseg",
+      "name": "yolo26m-sem",
       "version": "YOLO26",
-      "task": "Semantic Segmentation",
-      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26m-semseg.pt",
+      "task": "Object Detection",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26m-sem.pt",
       "file_size_mb": 27.6
     },
     {
@@ -598,10 +598,10 @@
       "file_size_mb": 6.4
     },
     {
-      "name": "yolo26n-semseg",
+      "name": "yolo26n-sem",
       "version": "YOLO26",
-      "task": "Semantic Segmentation",
-      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26n-semseg.pt",
+      "task": "Object Detection",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26n-sem.pt",
       "file_size_mb": 3.3
     },
     {
@@ -675,10 +675,10 @@
       "file_size_mb": 22.4
     },
     {
-      "name": "yolo26s-semseg",
+      "name": "yolo26s-sem",
       "version": "YOLO26",
-      "task": "Semantic Segmentation",
-      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26s-semseg.pt",
+      "task": "Object Detection",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26s-sem.pt",
       "file_size_mb": 12.6
     },
     {
@@ -745,10 +745,10 @@
       "file_size_mb": 135.5
     },
     {
-      "name": "yolo26x-semseg",
+      "name": "yolo26x-sem",
       "version": "YOLO26",
-      "task": "Semantic Segmentation",
-      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26x-semseg.pt",
+      "task": "Object Detection",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26x-sem.pt",
       "file_size_mb": 77.0
     },
     {
