@@ -1,6 +1,6 @@
 {
   "version": "v8.4.0",
-  "last_updated": "2026-06-03T04:43:26Z",
+  "last_updated": "2026-06-04T04:38:10Z",
   "models": [
     {
       "name": "rtdetr-l",
@@ -437,6 +437,13 @@
       "file_size_mb": 55.3
     },
     {
+      "name": "yolo26l-reid",
+      "version": "YOLO26",
+      "task": "Object Detection",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26l-reid.pt",
+      "file_size_mb": 29.6
+    },
+    {
       "name": "yolo26l-s3d",
       "version": "YOLO26",
       "task": "3D Object Detection",
@@ -514,6 +521,13 @@
       "file_size_mb": 46.8
     },
     {
+      "name": "yolo26m-reid",
+      "version": "YOLO26",
+      "task": "Object Detection",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26m-reid.pt",
+      "file_size_mb": 23.9
+    },
+    {
       "name": "yolo26m-s3d",
       "version": "YOLO26",
       "task": "3D Object Detection",
@@ -582,6 +596,13 @@
       "task": "Pose Estimation",
       "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26n-pose.pt",
       "file_size_mb": 7.5
+    },
+    {
+      "name": "yolo26n-reid",
+      "version": "YOLO26",
+      "task": "Object Detection",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26n-reid.pt",
+      "file_size_mb": 5.6
     },
     {
       "name": "yolo26n-s3d",
@@ -661,6 +682,13 @@
       "file_size_mb": 23.0
     },
     {
+      "name": "yolo26s-reid",
+      "version": "YOLO26",
+      "task": "Object Detection",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26s-reid.pt",
+      "file_size_mb": 14.5
+    },
+    {
       "name": "yolo26s-s3d",
       "version": "YOLO26",
       "task": "3D Object Detection",
@@ -736,6 +764,13 @@
       "task": "Pose Estimation",
       "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26x-pose.pt",
       "file_size_mb": 120.4
+    },
+    {
+      "name": "yolo26x-reid",
+      "version": "YOLO26",
+      "task": "Object Detection",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26x-reid.pt",
+      "file_size_mb": 62.7
     },
     {
       "name": "yolo26x-seg",
