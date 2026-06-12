@@ -1,6 +1,6 @@
 {
   "version": "v8.4.0",
-  "last_updated": "2026-06-11T04:22:20Z",
+  "last_updated": "2026-06-12T04:24:50Z",
   "models": [
     {
       "name": "rtdetr-l",
@@ -472,6 +472,13 @@
       "file_size_mb": 34.5
     },
     {
+      "name": "yolo26l-sem-ade20k",
+      "version": "YOLO26",
+      "task": "Object Detection",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26l-sem-ade20k.pt",
+      "file_size_mb": 34.6
+    },
+    {
       "name": "yolo26l-stereo3ddet-siamese",
       "version": "YOLO26",
       "task": "Stereo 3D Detection",
@@ -563,6 +570,13 @@
       "file_size_mb": 27.6
     },
     {
+      "name": "yolo26m-sem-ade20k",
+      "version": "YOLO26",
+      "task": "Object Detection",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26m-sem-ade20k.pt",
+      "file_size_mb": 27.7
+    },
+    {
       "name": "yolo26m-stereo3ddet-siamese",
       "version": "YOLO26",
       "task": "Stereo 3D Detection",
@@ -644,6 +658,13 @@
       "version": "YOLO26",
       "task": "Object Detection",
       "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26n-sem.pt",
+      "file_size_mb": 3.3
+    },
+    {
+      "name": "yolo26n-sem-ade20k",
+      "version": "YOLO26",
+      "task": "Object Detection",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26n-sem-ade20k.pt",
       "file_size_mb": 3.3
     },
     {
@@ -738,6 +759,13 @@
       "file_size_mb": 12.6
     },
     {
+      "name": "yolo26s-sem-ade20k",
+      "version": "YOLO26",
+      "task": "Object Detection",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26s-sem-ade20k.pt",
+      "file_size_mb": 12.7
+    },
+    {
       "name": "yolo26s-stereo3ddet-siamese",
       "version": "YOLO26",
       "task": "Stereo 3D Detection",
@@ -820,6 +848,13 @@
       "task": "Object Detection",
       "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26x-sem.pt",
       "file_size_mb": 77.0
+    },
+    {
+      "name": "yolo26x-sem-ade20k",
+      "version": "YOLO26",
+      "task": "Object Detection",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26x-sem-ade20k.pt",
+      "file_size_mb": 77.2
     },
     {
       "name": "yoloe-26l-seg",
