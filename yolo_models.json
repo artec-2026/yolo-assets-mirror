@@ -1,6 +1,6 @@
 {
   "version": "v8.4.0",
-  "last_updated": "2026-06-22T04:55:42Z",
+  "last_updated": "2026-06-23T03:57:30Z",
   "models": [
     {
       "name": "rtdetr-l",
@@ -157,6 +157,13 @@
       "file_size_mb": 50.7
     },
     {
+      "name": "yolo11l-reid",
+      "version": "YOLO11",
+      "task": "Object Detection",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo11l-reid.pt",
+      "file_size_mb": 37.7
+    },
+    {
       "name": "yolo11l-seg",
       "version": "YOLO11",
       "task": "Instance Segmentation",
@@ -232,6 +239,13 @@
       "task": "Pose Estimation",
       "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo11n-pose.pt",
       "file_size_mb": 6.0
+    },
+    {
+      "name": "yolo11n-reid",
+      "version": "YOLO11",
+      "task": "Object Detection",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo11n-reid.pt",
+      "file_size_mb": 16.0
     },
     {
       "name": "yolo11n-seg",
@@ -409,6 +423,13 @@
       "file_size_mb": 53.3
     },
     {
+      "name": "yolo26l-distill",
+      "version": "YOLO26",
+      "task": "Object Detection",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26l-distill.pt",
+      "file_size_mb": 50.8
+    },
+    {
       "name": "yolo26l-obb",
       "version": "YOLO26",
       "task": "Oriented Bounding Box",
@@ -507,6 +528,13 @@
       "file_size_mb": 44.7
     },
     {
+      "name": "yolo26m-distill",
+      "version": "YOLO26",
+      "task": "Object Detection",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26m-distill.pt",
+      "file_size_mb": 42.3
+    },
+    {
       "name": "yolo26m-obb",
       "version": "YOLO26",
       "task": "Oriented Bounding Box",
@@ -596,6 +624,13 @@
       "task": "Classification",
       "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26n-cls.pt",
       "file_size_mb": 5.5
+    },
+    {
+      "name": "yolo26n-distill",
+      "version": "YOLO26",
+      "task": "Object Detection",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26n-distill.pt",
+      "file_size_mb": 5.3
     },
     {
       "name": "yolo26n-obb",
@@ -696,6 +731,13 @@
       "file_size_mb": 25.5
     },
     {
+      "name": "yolo26s-distill",
+      "version": "YOLO26",
+      "task": "Object Detection",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26s-distill.pt",
+      "file_size_mb": 19.5
+    },
+    {
       "name": "yolo26s-obb",
       "version": "YOLO26",
       "task": "Oriented Bounding Box",
@@ -792,6 +834,13 @@
       "task": "Depth Estimation",
       "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26x-depth.pt",
       "file_size_mb": 109.3
+    },
+    {
+      "name": "yolo26x-distill",
+      "version": "YOLO26",
+      "task": "Object Detection",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26x-distill.pt",
+      "file_size_mb": 113.2
     },
     {
       "name": "yolo26x-obb",
@@ -1144,6 +1193,13 @@
       "file_size_mb": 85.3
     },
     {
+      "name": "yolov8l-reid",
+      "version": "YOLOv8",
+      "task": "Object Detection",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8l-reid.pt",
+      "file_size_mb": 82.2
+    },
+    {
       "name": "yolov8l-seg",
       "version": "YOLOv8",
       "task": "Instance Segmentation",
@@ -1282,6 +1338,13 @@
       "task": "Pose Estimation",
       "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8n-pose.pt",
       "file_size_mb": 6.5
+    },
+    {
+      "name": "yolov8n-reid",
+      "version": "YOLOv8",
+      "task": "Object Detection",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8n-reid.pt",
+      "file_size_mb": 15.8
     },
     {
       "name": "yolov8n-seg",
