@@ -1,6 +1,6 @@
 {
   "version": "v8.4.0",
-  "last_updated": "2026-06-23T03:57:30Z",
+  "last_updated": "2026-06-24T03:59:28Z",
   "models": [
     {
       "name": "rtdetr-l",
@@ -157,13 +157,6 @@
       "file_size_mb": 50.7
     },
     {
-      "name": "yolo11l-reid",
-      "version": "YOLO11",
-      "task": "Object Detection",
-      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo11l-reid.pt",
-      "file_size_mb": 37.7
-    },
-    {
       "name": "yolo11l-seg",
       "version": "YOLO11",
       "task": "Instance Segmentation",
@@ -239,13 +232,6 @@
       "task": "Pose Estimation",
       "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo11n-pose.pt",
       "file_size_mb": 6.0
-    },
-    {
-      "name": "yolo11n-reid",
-      "version": "YOLO11",
-      "task": "Object Detection",
-      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo11n-reid.pt",
-      "file_size_mb": 16.0
     },
     {
       "name": "yolo11n-seg",
@@ -1193,13 +1179,6 @@
       "file_size_mb": 85.3
     },
     {
-      "name": "yolov8l-reid",
-      "version": "YOLOv8",
-      "task": "Object Detection",
-      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8l-reid.pt",
-      "file_size_mb": 82.2
-    },
-    {
       "name": "yolov8l-seg",
       "version": "YOLOv8",
       "task": "Instance Segmentation",
@@ -1338,13 +1317,6 @@
       "task": "Pose Estimation",
       "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8n-pose.pt",
       "file_size_mb": 6.5
-    },
-    {
-      "name": "yolov8n-reid",
-      "version": "YOLOv8",
-      "task": "Object Detection",
-      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8n-reid.pt",
-      "file_size_mb": 15.8
     },
     {
       "name": "yolov8n-seg",
