@@ -1,6 +1,6 @@
 {
   "version": "v8.4.0",
-  "last_updated": "2026-07-16T02:54:20Z",
+  "last_updated": "2026-07-17T02:56:46Z",
   "models": [
     {
       "name": "rtdetr-l",
@@ -511,7 +511,7 @@
       "version": "YOLO26",
       "task": "Depth Estimation",
       "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26m-depth.pt",
-      "file_size_mb": 44.7
+      "file_size_mb": 44.8
     },
     {
       "name": "yolo26m-distill",
