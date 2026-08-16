@@ -1,6 +1,6 @@
 {
   "version": "v8.4.0",
-  "last_updated": "2026-08-15T01:26:02Z",
+  "last_updated": "2026-08-16T01:37:39Z",
   "models": [
     {
       "name": "rtdetr-l",
@@ -462,7 +462,7 @@
       "version": "YOLO26",
       "task": "3D Object Detection",
       "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26l-s3d.pt",
-      "file_size_mb": 62.1
+      "file_size_mb": 62.2
     },
     {
       "name": "yolo26l-seg",
@@ -567,7 +567,7 @@
       "version": "YOLO26",
       "task": "3D Object Detection",
       "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26m-s3d.pt",
-      "file_size_mb": 53.6
+      "file_size_mb": 53.7
     },
     {
       "name": "yolo26m-seg",
@@ -672,7 +672,7 @@
       "version": "YOLO26",
       "task": "3D Object Detection",
       "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26n-s3d.pt",
-      "file_size_mb": 8.8
+      "file_size_mb": 8.9
     },
     {
       "name": "yolo26n-seg",
