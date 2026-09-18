@@ -1,6 +1,6 @@
 {
   "version": "v8.4.0",
-  "last_updated": "2026-09-17T04:15:00Z",
+  "last_updated": "2026-09-18T03:59:14Z",
   "models": [
     {
       "name": "rtdetr-l",
@@ -917,7 +917,7 @@
       "version": "YOLO26",
       "task": "Instance Segmentation",
       "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yoloe-26l-seg-pf.pt",
-      "file_size_mb": 77.9
+      "file_size_mb": 90.2
     },
     {
       "name": "yoloe-26m-seg",
@@ -931,7 +931,7 @@
       "version": "YOLO26",
       "task": "Instance Segmentation",
       "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yoloe-26m-seg-pf.pt",
-      "file_size_mb": 69.5
+      "file_size_mb": 81.7
     },
     {
       "name": "yoloe-26n-seg",
@@ -945,7 +945,7 @@
       "version": "YOLO26",
       "task": "Instance Segmentation",
       "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yoloe-26n-seg-pf.pt",
-      "file_size_mb": 12.7
+      "file_size_mb": 15.5
     },
     {
       "name": "yoloe-26s-seg",
@@ -959,7 +959,7 @@
       "version": "YOLO26",
       "task": "Instance Segmentation",
       "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yoloe-26s-seg-pf.pt",
-      "file_size_mb": 31.2
+      "file_size_mb": 38.1
     },
     {
       "name": "yoloe-26x-seg",
@@ -973,7 +973,7 @@
       "version": "YOLO26",
       "task": "Instance Segmentation",
       "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yoloe-26x-seg-pf.pt",
-      "file_size_mb": 165.1
+      "file_size_mb": 184.1
     },
     {
       "name": "yolov10b",
