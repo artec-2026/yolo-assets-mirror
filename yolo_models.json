@@ -1,6 +1,6 @@
 {
   "version": "v8.4.0",
-  "last_updated": "2026-11-10T06:42:09Z",
+  "last_updated": "2026-11-11T05:28:37Z",
   "models": [
     {
       "name": "rtdetr-l",
@@ -493,6 +493,13 @@
       "file_size_mb": 60.1
     },
     {
+      "name": "yolo26l-text",
+      "version": "YOLO26",
+      "task": "Object Detection",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26l-text.pt",
+      "file_size_mb": 53.8
+    },
+    {
       "name": "yolo26m",
       "version": "YOLO26",
       "task": "Object Detection",
@@ -596,6 +603,13 @@
       "task": "Stereo 3D Detection",
       "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26m-stereo3ddet-siamese.pt",
       "file_size_mb": 51.5
+    },
+    {
+      "name": "yolo26m-text",
+      "version": "YOLO26",
+      "task": "Object Detection",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26m-text.pt",
+      "file_size_mb": 45.3
     },
     {
       "name": "yolo26n",
@@ -703,6 +717,13 @@
       "file_size_mb": 7.3
     },
     {
+      "name": "yolo26n-text",
+      "version": "YOLO26",
+      "task": "Object Detection",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26n-text.pt",
+      "file_size_mb": 5.5
+    },
+    {
       "name": "yolo26s",
       "version": "YOLO26",
       "task": "Object Detection",
@@ -808,6 +829,13 @@
       "file_size_mb": 22.5
     },
     {
+      "name": "yolo26s-text",
+      "version": "YOLO26",
+      "task": "Object Detection",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26s-text.pt",
+      "file_size_mb": 20.5
+    },
+    {
       "name": "yolo26x",
       "version": "YOLO26",
       "task": "Object Detection",
@@ -904,6 +932,13 @@
       "task": "Object Detection",
       "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26x-sem-ade20k.pt",
       "file_size_mb": 77.2
+    },
+    {
+      "name": "yolo26x-text",
+      "version": "YOLO26",
+      "task": "Object Detection",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26x-text.pt",
+      "file_size_mb": 120.2
     },
     {
       "name": "yoloe-26l-seg",
