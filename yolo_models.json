@@ -1,6 +1,6 @@
 {
   "version": "v8.4.0",
-  "last_updated": "2026-11-24T09:11:28Z",
+  "last_updated": "2026-11-25T07:46:35Z",
   "models": [
     {
       "name": "rtdetr-l",
